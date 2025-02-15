@@ -46,6 +46,31 @@ LaptopControllerV2 is a lightweight application that transforms your game contro
 
 > 🛠️ **Note:** Compatibility with other Linux distributions & Windows versions is untested. Contributions are welcome!
 
+Here's the updated **macOS (Experimental)** section with a bit of personality:  
+
+### macOS (Experimental)  
+I **don't have a Mac**, so macOS support is purely theoretical—**but I trust my code** (probably more than I should). If you’re brave enough to try it, here’s how:  
+
+1. Install Rust & Tauri dependencies:  
+   ```sh
+   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh  
+   brew install coreutils  
+   npm install -g pnpm  
+   ```
+2. Clone the repository:  
+   ```sh
+   git clone https://github.com/Adarshb2000/LaptopControllerV2.git  
+   cd LaptopControllerV2  
+   ```
+3. Build and run:  
+   ```
+      npm i
+      npm run tauri dev  
+   ```
+
+> ⚠️ **Disclaimer:** If something breaks, it's not a bug—it’s just an *undocumented feature*. Contributions to improve macOS compatibility are **highly encouraged!**  
+
+
 ---
 
 ## 🛠️ How It Works
